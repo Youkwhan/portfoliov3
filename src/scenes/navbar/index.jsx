@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../../hooks/useMediaQuery";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import resume from "../../assets/youkwhan_kim_resume.pdf";
 
 function Navbar({ selectedPage, setSelectedPage }) {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
@@ -10,7 +11,7 @@ function Navbar({ selectedPage, setSelectedPage }) {
   return (
     <nav>
       <div className="sticky top-0 z-30 w-full py-6 ">
-        <div className="mx-auto flex w-5/6 items-center justify-between gap-16 font-opensans">
+        <div className="mx-auto flex max-w-[1330px] items-center justify-between gap-16 font-opensans">
           <AnchorLink
             className="text-2xl text-primary-200 "
             href="#home"
@@ -20,11 +21,11 @@ function Navbar({ selectedPage, setSelectedPage }) {
           </AnchorLink>
 
           {isAboveMediumScreens ? (
-            <div className="flex items-center justify-end gap-8 text-sm">
+            <div className="flex items-center justify-end gap-8">
               <AnchorLink
                 className={`${
                   selectedPage === "works" ? "text-secondary-100" : ""
-                } transition duration-500 hover:text-primary-300`}
+                } transition duration-500 hover:text-primary-300 hover:underline`}
                 href="#works"
                 onClick={() => setSelectedPage("works")}
               >
@@ -33,16 +34,16 @@ function Navbar({ selectedPage, setSelectedPage }) {
               <AnchorLink
                 className={`${
                   selectedPage === "about" ? "text-secondary-100" : ""
-                } transition duration-500 hover:text-primary-300`}
+                } transition duration-500 hover:text-primary-300 hover:underline`}
                 href="#"
                 onClick={() => setSelectedPage("about")}
               >
                 About
               </AnchorLink>
               <a
-                className="transition duration-500 hover:text-primary-300"
+                className="transition duration-500 hover:text-primary-300 hover:underline"
                 target="_blank"
-                href="#"
+                href={resume}
               >
                 Resume
               </a>
@@ -83,7 +84,7 @@ function Navbar({ selectedPage, setSelectedPage }) {
             <AnchorLink
               className={`${
                 selectedPage === "works" ? "text-secondary-100" : ""
-              } transition duration-500 hover:text-primary-200`}
+              } transition duration-500 hover:text-primary-200 `}
               href="#works"
               onClick={() => setSelectedPage("works")}
             >
