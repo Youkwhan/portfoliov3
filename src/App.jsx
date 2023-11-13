@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Navbar from "./scenes/navbar";
 import Home from "./scenes/home";
+import Work from "./scenes/work";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -26,6 +27,7 @@ function App() {
     <div className="app bg-bg-gray">
       <Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
       <Home />
+      <Work />
     </div>
   );
 }

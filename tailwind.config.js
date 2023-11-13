@@ -9,7 +9,7 @@ export default {
         "primary-200": "#333333",
         "secondary-100": "#416BD8",
         "primary-300": "#C4C4C4",
-        "primary-400" : "#343434"
+        "primary-400": "#343434",
       },
       fontFamily: {
         opensans: ["Open Sans", "sans-serif"],
@@ -19,7 +19,7 @@ export default {
     screens: {
       xs: "480px",
       sm: "768px",
-      md: "1060px",
+      md: "950px",
     },
   },
   plugins: [],

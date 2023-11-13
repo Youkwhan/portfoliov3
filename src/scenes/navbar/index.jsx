@@ -6,12 +6,12 @@ import resume from "../../assets/youkwhan_kim_resume.pdf";
 
 function Navbar({ selectedPage, setSelectedPage }) {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
-  const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
+  const isAboveMediumScreens = useMediaQuery("(min-width:950px)");
 
   return (
     <nav>
       <div className="sticky top-0 z-30 w-full py-6 ">
-        <div className="mx-auto flex max-w-[1330px] items-center justify-between gap-16 font-opensans">
+        <div className="mx-auto flex max-w-[1440px] items-center justify-between gap-16 font-opensans">
           <AnchorLink
             className="text-2xl text-primary-200 "
             href="#home"

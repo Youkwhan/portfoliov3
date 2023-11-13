@@ -7,9 +7,9 @@ import resume from "../../assets/youkwhan_kim_resume.pdf";
 function Home() {
   return (
     <section id="home">
-      <div className="mx-auto flex max-w-[850px] flex-col items-start justify-center gap-10 py-28">
+      <div className="mx-auto flex max-w-[950px] flex-col items-start justify-center gap-10 py-28">
         <div>
-          <h1 className="text-[1.8rem] leading-[3.125rem]">
+          <h1 className="text-[2rem] leading-[3.125rem]">
             Hello! I am a{" "}
             <span className="text-secondary-100">Software Engineer</span> who
             enjoys crafting experiences that empower users. I am now designing
@@ -18,7 +18,7 @@ function Home() {
         </div>
         <div>
           <p className="mb-2.5">
-            Bachelor's degree in Applied Mathematics & Statistics, Economics at{" "}
+            Bachelor's degree in Applied Mathematics & Statistics, and Economics at{" "}
             <span className="text-secondary-100">Stony Brook University</span>
           </p>
           <p>
