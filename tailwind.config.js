@@ -15,6 +15,9 @@ export default {
         opensans: ["Open Sans", "sans-serif"],
         lato: ["Lato", "sans-serif"],
       },
+      content: {
+        vanlife: "url(./assets/kongress.png)",
+      },
     },
     screens: {
       xs: "480px",

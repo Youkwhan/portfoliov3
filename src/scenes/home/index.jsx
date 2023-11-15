@@ -18,14 +18,15 @@ function Home() {
         </div>
         <div>
           <p className="mb-2.5">
-            Bachelor's degree in Applied Mathematics & Statistics, and Economics at{" "}
+            Bachelor's degree in Applied Mathematics & Statistics, and Economics
+            at{" "}
             <span className="text-secondary-100">Stony Brook University</span>
           </p>
           <p>
             Previously at <span>Company</span>
           </p>
         </div>
-        <div className="text-primary-400 flex items-center justify-start gap-6 drop-shadow-lg">
+        <div className="flex items-center justify-start gap-6 text-primary-400 drop-shadow-lg">
           <a
             href="mailto:Youkwhan@gmail.com"
             className="hover:translate-y-1 hover:text-secondary-100"
@@ -50,14 +51,14 @@ function Home() {
             target="_blank"
             className="hover:translate-y-1 hover:text-secondary-100"
           >
-            <i class="fa-brands fa-github-alt text-2xl"></i>
+            <i className="fa-brands fa-github-alt text-2xl"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/youkwhan/"
             target="_blank"
             className="hover:translate-y-1 hover:text-secondary-100"
           >
-            <i class="fa-brands fa-linkedin-in text-2xl"></i>
+            <i className="fa-brands fa-linkedin-in text-2xl"></i>
           </a>
         </div>
       </div>
