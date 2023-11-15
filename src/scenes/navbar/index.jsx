@@ -13,7 +13,7 @@ function Navbar({ selectedPage, setSelectedPage }) {
       <div className="sticky top-0 z-30 w-full py-6 ">
         <div className="mx-auto flex max-w-[1440px] items-center justify-between gap-16 font-opensans">
           <AnchorLink
-            className="text-2xl text-primary-200 "
+            className="text-2xl text-primary-200"
             href="#home"
             onClick={() => setSelectedPage("home")}
           >

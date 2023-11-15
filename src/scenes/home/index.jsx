@@ -29,7 +29,7 @@ function Home() {
         <div className="flex items-center justify-start gap-6 text-primary-400 drop-shadow-lg">
           <a
             href="mailto:Youkwhan@gmail.com"
-            className="hover:translate-y-1 hover:text-secondary-100"
+            className="hover:translate-y-0.5 hover:text-secondary-100"
           >
             <EnvelopeOpenIcon
               className="w-6"
@@ -39,7 +39,7 @@ function Home() {
           <a
             href={resume}
             target="_blank"
-            className="hover:translate-y-1 hover:text-secondary-100"
+            className="hover:translate-y-0.5 hover:text-secondary-100"
           >
             <DocumentTextIcon
               className="w-6"
@@ -49,14 +49,14 @@ function Home() {
           <a
             href="https://github.com/Youkwhan"
             target="_blank"
-            className="hover:translate-y-1 hover:text-secondary-100"
+            className="hover:translate-y-0.5 hover:text-secondary-100"
           >
             <i className="fa-brands fa-github-alt text-2xl"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/youkwhan/"
             target="_blank"
-            className="hover:translate-y-1 hover:text-secondary-100"
+            className="hover:translate-y-0.5 hover:text-secondary-100"
           >
             <i className="fa-brands fa-linkedin-in text-2xl"></i>
           </a>
