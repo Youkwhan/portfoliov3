@@ -1,16 +1,21 @@
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import {
   EnvelopeOpenIcon,
   DocumentTextIcon,
 } from "@heroicons/react/24/outline";
+import { scrollToSection } from "../../shared/scrollUtils";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
     <section id="footer">
       <div className="mx-auto flex max-w-[950px] items-center justify-between border-t-4 border-primary-300 py-14">
-        <AnchorLink className="text-2xl text-primary-200 " href="#home">
+        <NavLink
+          className="text-2xl text-primary-200 "
+          to="/"
+          onClick={() => scrollToSection("home")}
+        >
           youkwhan kim
-        </AnchorLink>
+        </NavLink>
         <div className="flex items-center justify-start gap-6 text-primary-400 drop-shadow-lg">
           <a href="mailto:Youkwhan@gmail.com">
             <EnvelopeOpenIcon

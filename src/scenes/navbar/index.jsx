@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../../hooks/useMediaQuery";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import resume from "../../assets/youkwhan_kim_resume.pdf";
+import { NavLink } from "react-router-dom";
+import { scrollToSection } from "../../shared/scrollUtils";
 
 function Navbar() {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
@@ -12,24 +13,29 @@ function Navbar() {
     <nav>
       <div className="sticky top-0 z-30 w-full py-6 ">
         <div className="mx-auto flex max-w-[1440px] items-center justify-between gap-16 font-opensans">
-          <AnchorLink className="text-2xl text-primary-200" href="#home">
+          <NavLink
+            className="text-2xl text-primary-200"
+            to="/"
+            onClick={() => scrollToSection("home")}
+          >
             youkwhan kim
-          </AnchorLink>
+          </NavLink>
 
           {isAboveMediumScreens ? (
             <div className="flex items-center justify-end gap-8">
-              <AnchorLink
+              <NavLink
                 className="transition duration-500 hover:text-primary-300 hover:underline"
-                href="#works"
+                to="/"
+                onClick={() => scrollToSection("works")}
               >
                 Works
-              </AnchorLink>
-              <AnchorLink
+              </NavLink>
+              <NavLink
                 className="transition duration-500 hover:text-primary-300 hover:underline"
-                href="#"
+                to="/about"
               >
                 About
-              </AnchorLink>
+              </NavLink>
               <a
                 className="transition duration-500 hover:text-primary-300 hover:underline"
                 target="_blank"
@@ -62,24 +68,26 @@ function Navbar() {
 
           {/* Menu Items */}
           <div className="ml-[33%] flex flex-col gap-10 text-2xl">
-            <AnchorLink
+            <NavLink
               className="transition duration-500 hover:text-primary-300 hover:underline"
-              href="#home"
+              to="/"
+              onClick={() => scrollToSection("home")}
             >
               Home
-            </AnchorLink>
-            <AnchorLink
+            </NavLink>
+            <NavLink
               className="transition duration-500 hover:text-primary-300 hover:underline"
-              href="#works"
+              to="/"
+              onClick={() => scrollToSection("works")}
             >
               Works
-            </AnchorLink>
-            <AnchorLink
+            </NavLink>
+            <NavLink
               className="transition duration-500 hover:text-primary-300 hover:underline"
-              href="#"
+              to="/about"
             >
               About
-            </AnchorLink>
+            </NavLink>
           </div>
         </div>
       )}
