@@ -6,12 +6,18 @@ import {
 } from "react-router-dom";
 import Layout from "./scenes/Layout";
 import IndexPage from "./scenes/IndexPage";
+import About from "./scenes/about";
+import ErrorPage from "./scenes/errorPage";
 
 // Client-side Routing
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Layout />}>
-      <Route index element={<IndexPage />} />
+    <Route path="/" element={<Layout />} errorElement={<ErrorPage />}>
+      <Route errorElement={<ErrorPage />}>
+        <Route index element={<IndexPage />} />
+        <Route path="about" element={<About />} />
+        {/* <Route path="projects/:projectId" element={ProjectItem} loader?>*/}
+      </Route>
     </Route>,
   ),
 );
