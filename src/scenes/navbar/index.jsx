@@ -24,20 +24,20 @@ function Navbar() {
           {isAboveMediumScreens ? (
             <div className="flex items-center justify-end gap-8">
               <NavLink
-                className="transition duration-500 hover:text-primary-300 hover:underline"
+                className="transition duration-500 hover:text-primary-200 hover:underline"
                 to="/"
                 onClick={() => scrollToSection("works")}
               >
                 Works
               </NavLink>
               <NavLink
-                className="transition duration-500 hover:text-primary-300 hover:underline"
+                className="transition duration-500 hover:text-primary-200 hover:underline"
                 to="/about"
               >
                 About
               </NavLink>
               <a
-                className="transition duration-500 hover:text-primary-300 hover:underline"
+                className="transition duration-500 hover:text-primary-200 hover:underline"
                 target="_blank"
                 href={resume}
               >
@@ -69,21 +69,21 @@ function Navbar() {
           {/* Menu Items */}
           <div className="ml-[33%] flex flex-col gap-10 text-2xl">
             <NavLink
-              className="transition duration-500 hover:text-primary-300 hover:underline"
+              className="transition duration-500 hover:text-primary-200 hover:underline"
               to="/"
               onClick={() => scrollToSection("home")}
             >
               Home
             </NavLink>
             <NavLink
-              className="transition duration-500 hover:text-primary-300 hover:underline"
+              className="transition duration-500 hover:text-primary-200 hover:underline"
               to="/"
               onClick={() => scrollToSection("works")}
             >
               Works
             </NavLink>
             <NavLink
-              className="transition duration-500 hover:text-primary-300 hover:underline"
+              className="transition duration-500 hover:text-primary-200 hover:underline"
               to="/about"
             >
               About
