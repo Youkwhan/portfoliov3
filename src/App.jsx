@@ -1,37 +1,23 @@
-import { useState, useEffect } from "react";
-import Navbar from "./scenes/navbar";
-import Home from "./scenes/home";
-import Work from "./scenes/work";
-import Footer from "./scenes/footer";
+import {
+  RouterProvider,
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+} from "react-router-dom";
+import Layout from "./scenes/Layout";
+import IndexPage from "./scenes/IndexPage";
+
+// Client-side Routing
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<Layout />}>
+      <Route index element={<IndexPage />} />
+    </Route>,
+  ),
+);
 
 function App() {
-  const [selectedPage, setSelectedPage] = useState("home");
-  const [isTopOfPage, setIsTopOfPage] = useState(true);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY === 0) {
-        setIsTopOfPage(true);
-        setSelectedPage("home");
-      }
-      if (window.scrollY != 0) {
-        setIsTopOfPage(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    // When component unmounts
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  return (
-    <div className="app bg-bg-gray">
-      <Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
-      <Home />
-      <Work />
-      <Footer setSelectedPage={setSelectedPage} />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

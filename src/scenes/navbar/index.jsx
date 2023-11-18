@@ -4,7 +4,7 @@ import useMediaQuery from "../../hooks/useMediaQuery";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import resume from "../../assets/youkwhan_kim_resume.pdf";
 
-function Navbar({ selectedPage, setSelectedPage }) {
+function Navbar() {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   const isAboveMediumScreens = useMediaQuery("(min-width:950px)");
 
@@ -12,31 +12,21 @@ function Navbar({ selectedPage, setSelectedPage }) {
     <nav>
       <div className="sticky top-0 z-30 w-full py-6 ">
         <div className="mx-auto flex max-w-[1440px] items-center justify-between gap-16 font-opensans">
-          <AnchorLink
-            className="text-2xl text-primary-200"
-            href="#home"
-            onClick={() => setSelectedPage("home")}
-          >
+          <AnchorLink className="text-2xl text-primary-200" href="#home">
             youkwhan kim
           </AnchorLink>
 
           {isAboveMediumScreens ? (
             <div className="flex items-center justify-end gap-8">
               <AnchorLink
-                className={`${
-                  selectedPage === "works" ? "text-secondary-100" : ""
-                } transition duration-500 hover:text-primary-300 hover:underline`}
+                className="transition duration-500 hover:text-primary-300 hover:underline"
                 href="#works"
-                onClick={() => setSelectedPage("works")}
               >
                 Works
               </AnchorLink>
               <AnchorLink
-                className={`${
-                  selectedPage === "about" ? "text-secondary-100" : ""
-                } transition duration-500 hover:text-primary-300 hover:underline`}
+                className="transition duration-500 hover:text-primary-300 hover:underline"
                 href="#"
-                onClick={() => setSelectedPage("about")}
               >
                 About
               </AnchorLink>
@@ -73,29 +63,20 @@ function Navbar({ selectedPage, setSelectedPage }) {
           {/* Menu Items */}
           <div className="ml-[33%] flex flex-col gap-10 text-2xl">
             <AnchorLink
-              className={`${
-                selectedPage === "home" ? "text-secondary-100" : ""
-              } transition duration-500 hover:text-primary-200`}
+              className="transition duration-500 hover:text-primary-300 hover:underline"
               href="#home"
-              onClick={() => setSelectedPage("home")}
             >
               Home
             </AnchorLink>
             <AnchorLink
-              className={`${
-                selectedPage === "works" ? "text-secondary-100" : ""
-              } transition duration-500 hover:text-primary-200 `}
+              className="transition duration-500 hover:text-primary-300 hover:underline"
               href="#works"
-              onClick={() => setSelectedPage("works")}
             >
               Works
             </AnchorLink>
             <AnchorLink
-              className={`${
-                selectedPage === "about" ? "text-secondary-100" : ""
-              } transition duration-500 hover:text-primary-200`}
+              className="transition duration-500 hover:text-primary-300 hover:underline"
               href="#"
-              onClick={() => setSelectedPage("about")}
             >
               About
             </AnchorLink>
