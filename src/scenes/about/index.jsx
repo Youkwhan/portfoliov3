@@ -1,4 +1,5 @@
 import profile from "../../assets/IMG_1242.jpg";
+import Techstack from "./Techstack";
 
 function About() {
   return (
@@ -40,13 +41,14 @@ function About() {
       <div className="bg-primary-500">
         <section className="mx-auto max-w-[950px] py-28">
           {/* Skill */}
-          <article>
-            <h2>Skills & Technologies</h2>
+          <article className="rounded-lg bg-[#111827] p-5 text-primary-500">
+            <h2 className="mb-5 text-center text-2xl font-bold  tracking-widest">
+              Tech Stack
+            </h2>
+            <Techstack />
           </article>
           {/* Journey */}
-          <article>
-            <h2>Web Journey</h2>
-          </article>
+          <article></article>
         </section>
       </div>
     </section>
