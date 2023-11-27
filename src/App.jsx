@@ -8,6 +8,7 @@ import Layout from "./scenes/Layout";
 import IndexPage from "./scenes/IndexPage";
 import About from "./scenes/about";
 import ErrorPage from "./scenes/errorPage";
+import ProjectItem from "./scenes/projectItem";
 
 // Client-side Routing
 const router = createBrowserRouter(
@@ -16,7 +17,7 @@ const router = createBrowserRouter(
       <Route errorElement={<ErrorPage />}>
         <Route index element={<IndexPage />} />
         <Route path="about" element={<About />} />
-        {/* <Route path="projects/:projectId" element={ProjectItem} loader?>*/}
+        <Route path="projects/:projectId" element={<ProjectItem />} />
       </Route>
     </Route>,
   ),
