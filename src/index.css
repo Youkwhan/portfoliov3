@@ -21,3 +21,7 @@ p {
 p {
   @apply leading-[1.25rem];
 }
+
+h3 {
+  @apply font-opensans;
+}
