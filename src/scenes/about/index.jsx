@@ -3,8 +3,8 @@ import Techstack from "./Techstack";
 
 function About() {
   return (
-    <section id="about">
-      <div className="mx-auto flex max-w-[950px] py-28">
+    <section id="about" className="bg-white">
+      <div className="mx-auto flex max-w-[950px] py-28 ">
         <section className="flex items-start justify-between gap-14">
           {/* LEFT */}
           <div className="max-w-[50%]">
@@ -38,19 +38,18 @@ function About() {
           </article>
         </section>
       </div>
-      <div className="bg-primary-500">
-        <section className="mx-auto max-w-[950px] py-28">
-          {/* Skill */}
-          <article className="rounded-lg bg-[#111827] p-5 text-primary-500">
-            <h2 className="mb-5 text-center text-2xl font-bold  tracking-widest">
-              Tech Stack
-            </h2>
-            <Techstack />
-          </article>
-          {/* Journey */}
-          <article></article>
-        </section>
-      </div>
+
+      <section className="full-bleed mx-auto max-w-[950px] bg-bg-gray py-28">
+        {/* Skill */}
+        <article className="rounded-lg bg-[#111827] p-5 text-bg-gray">
+          <h2 className="mb-5 text-center text-2xl font-bold  tracking-widest">
+            Tech Stack
+          </h2>
+          <Techstack />
+        </article>
+        {/* Journey */}
+        <article></article>
+      </section>
     </section>
   );
 }

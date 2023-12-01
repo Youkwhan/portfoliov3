@@ -25,3 +25,12 @@ p {
 h3 {
   @apply font-opensans;
 }
+
+.full-bleed {
+  box-shadow: 0 0 0 100vmax #e8e8e8;
+  clip-path: inset(0 -100vmax);
+}
+
+.half-bleed {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}

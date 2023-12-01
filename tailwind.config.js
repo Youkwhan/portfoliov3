@@ -10,7 +10,6 @@ export default {
         "secondary-100": "#416BD8",
         "primary-300": "#C4C4C4",
         "primary-400": "#343434",
-        "primary-500": "#D9D9D9",
       },
       fontFamily: {
         opensans: ["Open Sans", "sans-serif"],
