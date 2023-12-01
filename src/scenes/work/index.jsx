@@ -7,10 +7,12 @@ function Work() {
         <div>
           <NavLink
             to="/projects/1"
+            onClick={() => scrollToSection("title")}
             className="h-[400px] w-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] content-vanlife hover:cursor-pointer"
           ></NavLink>
           <NavLink
             to="/projects/1"
+            onClick={() => scrollToSection("title")}
             className="mb-16 mt-4 flex items-center justify-start gap-5"
           >
             <h2 className="font-opensans text-xl font-bold text-primary-200">
@@ -25,10 +27,12 @@ function Work() {
         <div>
           <NavLink
             to="/projects/2"
+            onClick={() => scrollToSection("title")}
             className="h-[400px] w-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] content-vanlife hover:cursor-pointer"
           ></NavLink>
           <NavLink
             to="/projects/2"
+            onClick={() => scrollToSection("title")}
             className="mb-16 mt-4 flex items-center justify-start gap-5"
           >
             <h2 className="font-opensans text-xl font-bold text-primary-200">
@@ -43,10 +47,12 @@ function Work() {
         <div>
           <NavLink
             to="/projects/3"
+            onClick={() => scrollToSection("title")}
             className="h-[400px] w-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] content-vanlife hover:cursor-pointer"
           ></NavLink>
           <NavLink
             to="/projects/3"
+            onClick={() => scrollToSection("title")}
             className="mb-16 mt-4 flex items-center justify-start gap-5"
           >
             <h2 className="font-opensans text-xl font-bold text-primary-200">
@@ -61,10 +67,12 @@ function Work() {
         <div>
           <NavLink
             to="/projects/4"
+            onClick={() => scrollToSection("title")}
             className="h-[400px] w-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] content-vanlife hover:cursor-pointer"
           ></NavLink>
           <NavLink
             to="/projects/4"
+            onClick={() => scrollToSection("title")}
             className="mb-16 mt-4 flex items-center justify-start gap-5"
           >
             <h2 className="font-opensans text-xl font-bold text-primary-200">

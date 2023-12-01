@@ -12,7 +12,7 @@ function Footer() {
         <NavLink
           className="text-2xl text-primary-200 "
           to="/"
-          onClick={() => scrollToSection("home")}
+          onClick={() => scrollToSection("navbar")}
         >
           youkwhan kim
         </NavLink>

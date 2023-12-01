@@ -10,7 +10,7 @@ function Navbar() {
   const isAboveMediumScreens = useMediaQuery("(min-width:950px)");
 
   return (
-    <nav>
+    <nav id="navbar">
       <div className="sticky top-0 z-30 w-full py-6 ">
         <div className="mx-auto flex max-w-[1440px] items-center justify-between gap-16 font-opensans">
           <NavLink

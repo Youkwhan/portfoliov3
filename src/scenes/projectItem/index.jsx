@@ -1,5 +1,6 @@
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import { getProjectData } from "../../shared/dataUtils";
+import { scrollToSection } from "../../shared/scrollUtils";
 
 function ProjectItem() {
   const { projectId } = useParams();
@@ -81,6 +82,14 @@ function ProjectItem() {
             Next Steps
           </h3>
           <p className="mt-4">{projectData.approach}</p>
+          <div className="flex items-center justify-between pt-20">
+            <NavLink to="/" onClick={() => scrollToSection("navbar")}>
+              OTHER PROJECTS
+            </NavLink>
+            <NavLink to="#" onClick={() => scrollToSection("title")}>
+              TOP OF PAGE
+            </NavLink>
+          </div>
         </div>
       </section>
     </section>
