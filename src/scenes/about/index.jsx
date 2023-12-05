@@ -47,7 +47,7 @@ function About() {
             </ul>
             <p className="mb-6 text-base">
               I prioritize ensuring seamless experiences across various screens
-              and harbor a strong enthusiasm for exploring the potential
+              and have an interest in exploring the potential
               applications of AI beyond screen-based interactions.
             </p>
 

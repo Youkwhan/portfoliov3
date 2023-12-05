@@ -24,7 +24,7 @@ p {
 
 h3 {
   @apply font-opensans;
-  width: 12rem
+  width: 12rem;
 }
 
 span {
@@ -38,4 +38,12 @@ span {
 
 .half-bleed {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.pop-out {
+  transition: transform 0.5s ease-in;
+}
+
+.pop-out:hover {
+  transform: scale(1.03);
 }

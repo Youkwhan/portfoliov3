@@ -8,7 +8,7 @@ function Work() {
           <NavLink
             to="/projects/1"
             onClick={() => scrollToSection("title")}
-            className="h-[450px] w-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] content-vanlife hover:cursor-pointer"
+            className="pop-out h-[450px] w-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] content-vanlife hover:cursor-pointer"
           ></NavLink>
           <NavLink
             to="/projects/1"
@@ -25,7 +25,7 @@ function Work() {
           <NavLink
             to="/projects/2"
             onClick={() => scrollToSection("title")}
-            className="h-[450px] w-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] content-quizzical hover:cursor-pointer"
+            className="pop-out h-[450px] w-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] content-quizzical hover:cursor-pointer"
           ></NavLink>
           <NavLink
             to="/projects/2"
@@ -42,7 +42,7 @@ function Work() {
           <NavLink
             to="/projects/3"
             onClick={() => scrollToSection("title")}
-            className="h-[450px] w-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] content-watchlist hover:cursor-pointer"
+            className="pop-out h-[450px] w-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] content-watchlist hover:cursor-pointer"
           ></NavLink>
           <NavLink
             to="/projects/3"
