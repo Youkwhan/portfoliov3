@@ -16,7 +16,9 @@ export default {
         lato: ["Lato", "sans-serif"],
       },
       content: {
-        vanlife: "url(./assets/kongress.png)",
+        vanlife: "url(./assets/vanlife1.jpg)",
+        watchlist: "url(./assets/watchlist1.jpg)",
+        quizzical: "url(./assets/quizzical1.jpg)",
       },
     },
     screens: {

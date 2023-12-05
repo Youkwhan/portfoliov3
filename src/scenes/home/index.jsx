@@ -10,20 +10,18 @@ function Home() {
       <div className="mx-auto flex max-w-[950px] flex-col items-start justify-center gap-10 py-28">
         <div>
           <h1 className="text-[2rem] leading-[3.125rem]">
-            Hello! I am a{" "}
-            <span className="text-secondary-100">Software Engineer</span> who
-            enjoys crafting experiences that empower users. I am now designing
-            at <span className="text-secondary-100">100devs</span> team.
+            Hello! I am a <span>Software Engineer</span> who enjoys crafting
+            experiences that empower users. I am now designing at{" "}
+            <span>100devs</span> team.
           </h1>
         </div>
         <div>
           <p className="mb-2.5">
             Bachelor's degree in Applied Mathematics & Statistics, and Economics
-            at{" "}
-            <span className="text-secondary-100">Stony Brook University</span>
+            at <span>Stony Brook University</span>
           </p>
           <p>
-            Previously at <span>Company</span>
+            Previously at <span>Headstarter</span>
           </p>
         </div>
         <div className="flex items-center justify-start gap-6 text-primary-400 drop-shadow-lg">

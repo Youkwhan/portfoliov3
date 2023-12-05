@@ -26,6 +26,10 @@ h3 {
   @apply font-opensans;
 }
 
+span {
+  @apply text-secondary-100;
+}
+
 .full-bleed {
   box-shadow: 0 0 0 100vmax #e8e8e8;
   clip-path: inset(0 -100vmax);
