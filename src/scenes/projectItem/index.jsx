@@ -23,7 +23,7 @@ function ProjectItem() {
           alt="project-image"
           className="mb-7 h-[400px] w-full"
         />
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div>
             <h3 className="text-2xl text-primary-200">Team</h3>
             <p className="my-2">{projectData.team}</p>

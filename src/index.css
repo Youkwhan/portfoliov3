@@ -24,6 +24,7 @@ p {
 
 h3 {
   @apply font-opensans;
+  width: 12rem
 }
 
 span {

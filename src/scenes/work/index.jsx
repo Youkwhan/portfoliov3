@@ -13,7 +13,7 @@ function Work() {
           <NavLink
             to="/projects/1"
             onClick={() => scrollToSection("title")}
-            className="mb-16 mt-4 flex items-center justify-start gap-5"
+            className="mb-16 mt-4 flex flex-col items-center justify-start gap-5 md:flex-row"
           >
             <h2 className="font-opensans text-xl font-bold text-primary-200">
               Vanlife - Rental Platform
@@ -30,7 +30,7 @@ function Work() {
           <NavLink
             to="/projects/2"
             onClick={() => scrollToSection("title")}
-            className="mb-16 mt-4 flex items-center justify-start gap-5"
+            className="mb-16 mt-4 flex flex-col items-center justify-start gap-5 md:flex-row"
           >
             <h2 className="font-opensans text-xl font-bold text-primary-200">
               Quizzical - Trivia Quiz
@@ -47,7 +47,7 @@ function Work() {
           <NavLink
             to="/projects/3"
             onClick={() => scrollToSection("title")}
-            className="mb-16 mt-4 flex items-center justify-start gap-5"
+            className="mb-16 mt-4 flex flex-col items-center justify-start gap-5 md:flex-row"
           >
             <h2 className="font-opensans text-xl font-bold text-primary-200">
               MovieVault - Film Bookmarking

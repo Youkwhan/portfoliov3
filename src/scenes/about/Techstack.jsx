@@ -13,9 +13,9 @@ import IconPython from "../../assets/icons8/icons8-python.svg";
 
 function Techstack() {
   return (
-    <div className="flex justify-center gap-3  tracking-wide">
+    <div className="flex flex-wrap justify-center gap-3 tracking-wide">
       <div>
-        <h3 className="mb-3 rounded-lg bg-[#374151] p-3 pr-28 text-xl text-white">
+        <h3 className="mb-3 rounded-lg bg-secondary-100 p-3 pr-28 text-xl text-white">
           Frontend
         </h3>
         <ul className="icon-list pl-3">
@@ -78,7 +78,7 @@ function Techstack() {
         </ul>
       </div>
       <div>
-        <h3 className="mb-3 rounded-lg bg-[#374151] p-3 pr-28 text-xl text-white">
+        <h3 className="mb-3 rounded-lg bg-secondary-100 p-3 pr-28 text-xl text-white">
           Backend
         </h3>
         <ul className="icon-list pl-3">
@@ -101,7 +101,7 @@ function Techstack() {
         </ul>
       </div>
       <div>
-        <h3 className="mb-3 rounded-lg bg-[#374151] p-3 pr-28 text-xl text-white">
+        <h3 className="mb-3 rounded-lg bg-secondary-100 p-3 pr-28 text-xl text-white">
           Tools
         </h3>
         <ul className="icon-list pl-3">
