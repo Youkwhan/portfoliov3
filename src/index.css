@@ -47,3 +47,18 @@ span {
 .pop-out:hover {
   transform: scale(1.03);
 }
+
+.project01-accent{
+  color: rgb(225, 157, 0)
+}
+
+.link {
+  color: orange;
+  font-weight: bold;
+  text-decoration: none;
+  transition: text-decoration 0.3s ease-in;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

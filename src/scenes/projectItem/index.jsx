@@ -29,16 +29,18 @@ function ProjectItem() {
             <p className="my-2">{projectData.team}</p>
           </div>
           <div>
-            <h3 className="text-2xl text-primary-200">Timeframe</h3>
-            <p className="my-2">{projectData.timeframe}</p>
+            <h3 className="text-2xl text-primary-200">Live</h3>
+            <a href={projectData.live} target="_blank" className="link">
+              View Site
+            </a>
           </div>
           <div>
             <h3 className="text-2xl text-primary-200">My Role</h3>
             <p className="my-2">{projectData.role}</p>
           </div>
           <div>
-            <h3 className="text-2xl text-primary-200">Tool</h3>
-            <p className="my-2">{projectData.tools}</p>
+            <h3 className="text-2xl text-primary-200">Stack</h3>
+            <p className="my-2">{projectData.stack}</p>
           </div>
         </div>
       </section>
@@ -51,7 +53,7 @@ function ProjectItem() {
           <br />
           BACKGROUND
         </h2>
-        <p>{projectData.overview}</p>
+        <p className="leading-8">{projectData.overview}</p>
       </section>
       <section id="outcome" className="mx-auto max-w-[950px] py-20">
         <h2 className="mb-14 font-opensans text-7xl font-semibold tracking-tight text-primary-200">
@@ -62,7 +64,7 @@ function ProjectItem() {
         <h3 className="text-2xl font-semibold text-primary-200">Features</h3>
         <p className="mb-14 mt-4">{projectData.features}</p>
         <h3 className="text-2xl font-semibold text-primary-200">Approach</h3>
-        <p className="mt-4">{projectData.approach}</p>
+        <p className="mt-4 leading-8">{projectData.approach}</p>
       </section>
       <section
         id="reflection"
@@ -77,11 +79,11 @@ function ProjectItem() {
           <h3 className="text-2xl font-semibold text-primary-200">
             Key Takeaways
           </h3>
-          <p className="mb-14 mt-4">{projectData.features}</p>
+          <p className="mb-14 mt-4">{projectData.learned}</p>
           <h3 className="text-2xl font-semibold text-primary-200">
             Next Steps
           </h3>
-          <p className="mt-4">{projectData.approach}</p>
+          <p className="mt-4">{projectData.optimization}</p>
           <div className="flex items-center justify-between pt-20">
             <NavLink to="/" onClick={() => scrollToSection("navbar")}>
               OTHER PROJECTS
