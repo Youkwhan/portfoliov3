@@ -48,17 +48,21 @@ span {
   transform: scale(1.03);
 }
 
-.project01-accent{
-  color: rgb(225, 157, 0)
-}
-
 .link {
-  color: orange;
   font-weight: bold;
   text-decoration: none;
   transition: text-decoration 0.3s ease-in;
+  cursor: pointer;
 }
 
 .link:hover {
   text-decoration: underline;
+}
+
+.project01-accent {
+  color: rgb(225, 157, 0);
+}
+
+.project02-accent {
+  color: rgb(77, 91, 158);
 }

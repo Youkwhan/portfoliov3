@@ -30,7 +30,11 @@ function ProjectItem() {
           </div>
           <div>
             <h3 className="text-2xl text-primary-200">Live</h3>
-            <a href={projectData.live} target="_blank" className="link">
+            <a
+              href={projectData.live}
+              target="_blank"
+              className={`link project0${parsedProjectId}-accent`}
+            >
               View Site
             </a>
           </div>
@@ -62,9 +66,9 @@ function ProjectItem() {
           OUTCOME
         </h2>
         <h3 className="text-2xl font-semibold text-primary-200">Features</h3>
-        <p className="mb-14 mt-4">{projectData.features}</p>
+        <div className="mb-14 mt-4">{projectData.features}</div>
         <h3 className="text-2xl font-semibold text-primary-200">Approach</h3>
-        <p className="mt-4 leading-8">{projectData.approach}</p>
+        <div className="mt-4">{projectData.approach}</div>
       </section>
       <section
         id="reflection"
@@ -79,11 +83,11 @@ function ProjectItem() {
           <h3 className="text-2xl font-semibold text-primary-200">
             Key Takeaways
           </h3>
-          <p className="mb-14 mt-4">{projectData.learned}</p>
+          <div className="mb-14 mt-4">{projectData.learned}</div>
           <h3 className="text-2xl font-semibold text-primary-200">
             Next Steps
           </h3>
-          <p className="mt-4">{projectData.optimization}</p>
+          <div className="mt-4">{projectData.optimization}</div>
           <div className="flex items-center justify-between pt-20">
             <NavLink to="/" onClick={() => scrollToSection("navbar")}>
               OTHER PROJECTS
