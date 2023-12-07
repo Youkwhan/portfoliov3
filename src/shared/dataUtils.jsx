@@ -9,7 +9,7 @@ const projectsData = {
     image: project01,
     team: "1 Developer (Youkwhan Kim)",
     role: "Coder, Researcher, Prototyper",
-    live: "https://boisterous-gumption-10ba88.netlify.app/",
+    live: ["https://boisterous-gumption-10ba88.netlify.app/","https://github.com/Youkwhan/vanlife"],
     stack:
       "JavaScript, CSS, React.js, react-router-v6, Firebase (FireStore), Mirage.js",
     overview:
@@ -175,7 +175,7 @@ const projectsData = {
     image: project02,
     team: "1 Developer (Youkwhan Kim)",
     role: "Designer, Prototyper, Coder",
-    live: "https://harmonious-begonia-821825.netlify.app/",
+    live: ["https://harmonious-begonia-821825.netlify.app/","https://github.com/Youkwhan/quizzical"],
     stack: "HTML, CSS, JavaScript, React.js, Figma",
     overview:
       "Quizzical is the ultimate online trivia quiz designed to test your knowledge across a variety of categories. With Quizzical, players can engage in a fun and challenging experience, answering 5 random questions at a time. These trivia questions are retrieved from the Open Trivia Database API, ensuring a diverse range of content for endless entertainment.",
@@ -368,7 +368,7 @@ const projectsData = {
     image: project03,
     team: "1 Developer (Youkwhan Kim)",
     role: "Designer, Prototyper, Coder",
-    live: "https://watchlist-bookmark.netlify.app/",
+    live: ["https://watchlist-bookmark.netlify.app/","https://github.com/Youkwhan/watchlist"],
     stack: "HTML, CSS, JavaScript, Figma, REST API",
     overview:
       "MovieVault is a versatile website designed for users to curate and manage their personalized watchlist, encompassing movies, TV shows, and more. The platform empowers users to add, track, and efficiently remove items from their watchlist as they engage with different titles. Utilizing the robust Open Movie Database (OMDb) API, MovieVault seamlessly fetches comprehensive movie data based on titles, names, and IDs. This integration provides users with a vast reservoir of information, enhancing their ability to explore and select desired content for their watchlist.",

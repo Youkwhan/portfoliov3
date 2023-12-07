@@ -1,6 +1,7 @@
 import { NavLink, useParams } from "react-router-dom";
 import { getProjectData } from "../../shared/dataUtils";
 import { scrollToSection } from "../../shared/scrollUtils";
+import github from "../../assets/icons8/icons8-github.svg";
 
 function ProjectItem() {
   const { projectId } = useParams();
@@ -30,13 +31,18 @@ function ProjectItem() {
           </div>
           <div>
             <h3 className="text-2xl text-primary-200">Live</h3>
-            <a
-              href={projectData.live}
-              target="_blank"
-              className={`link project0${parsedProjectId}-accent`}
-            >
-              View Site
-            </a>
+            <div className="flex gap-2 items-center">
+              <a
+                href={projectData.live[0]}
+                target="_blank"
+                className={`link project0${parsedProjectId}-accent`}
+              >
+                View Site &rarr;
+              </a>
+              <a href={projectData.live[1]} target="_blank">
+                <img src={github} alt="github-link" className="w-7" />
+              </a>
+            </div>
           </div>
           <div>
             <h3 className="text-2xl text-primary-200">My Role</h3>
