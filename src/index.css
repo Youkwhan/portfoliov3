@@ -66,3 +66,41 @@ span {
 .project02-accent {
   color: rgb(77, 91, 158);
 }
+
+.project03-accent {
+  color: rgb(137, 184, 44);
+}
+
+/* Initial styles for the accents */
+.project01-underline::before,
+.project02-underline::before,
+.project03-underline::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px; /* adjust underline thickness */
+  bottom: -2px;
+  transition: width 0.5s ease;
+}
+
+.project01-underline::before {
+  background-color: rgb(225, 157, 0);
+  left: 0;
+}
+
+.project02-underline::before {
+  background-color: rgb(77, 91, 158);
+  left: 0;
+}
+
+.project03-underline::before {
+  background-color: rgb(137, 184, 44);
+  left: 0;
+}
+
+/* Hover effect */
+.project01-underline:hover::before,
+.project02-underline:hover::before,
+.project03-underline:hover::before {
+  width: 100%;
+}
