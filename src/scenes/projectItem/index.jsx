@@ -21,7 +21,7 @@ function ProjectItem() {
         <img
           src={projectData.image}
           alt="project-image"
-          className="mb-7 h-[400px] w-full"
+          className="mb-7 max-h-[500px] w-full shadow-[3px_3px_10px_rgb(0,0,0,0.2)]"
         />
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div>
