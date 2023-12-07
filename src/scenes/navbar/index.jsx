@@ -88,6 +88,13 @@ function Navbar() {
             >
               About
             </NavLink>
+            <a
+              className="transition duration-500 hover:text-primary-200 hover:underline"
+              target="_blank"
+              href={resume}
+            >
+              Resume
+            </a>
           </div>
         </div>
       )}
