@@ -1,5 +1,6 @@
 import project01 from "../assets/vanlife2.jpg";
 import project02 from "../assets/quizzical2.jpg";
+import project03 from "../assets/watchlist2.jpg";
 
 const projectsData = {
   1: {
@@ -360,8 +361,172 @@ const projectsData = {
       </ul>
     ),
   },
-  3: {},
-  4: {},
+  3: {
+    title: "MovieVault",
+    short_description:
+      "Bookmark all your favorite movies and films in one place",
+    image: project03,
+    team: "1 Developer (Youkwhan Kim)",
+    role: "Designer, Prototyper, Coder",
+    live: "https://watchlist-bookmark.netlify.app/",
+    stack: "HTML, CSS, JavaScript, Figma, REST API",
+    overview:
+      "MovieVault is a versatile website designed for users to curate and manage their personalized watchlist, encompassing movies, TV shows, and more. The platform empowers users to add, track, and efficiently remove items from their watchlist as they engage with different titles. Utilizing the robust Open Movie Database (OMDb) API, MovieVault seamlessly fetches comprehensive movie data based on titles, names, and IDs. This integration provides users with a vast reservoir of information, enhancing their ability to explore and select desired content for their watchlist.",
+    features: (
+      <ul>
+        <li>
+          <h4 className="project03-accent my-4 text-xl font-semibold underline underline-offset-2">
+            API Integration for Movie Data:
+          </h4>
+          <p className="leading-7">
+            Utilizing OMBd API, the application makes seamless API calls to
+            retrieve movie data based on user search queries. This feature
+            enhances the platform's content availability by accessing a wide
+            range of movie information.
+          </p>
+        </li>
+        <li>
+          <h4 className="project03-accent my-4 text-xl font-semibold underline underline-offset-2">
+            Dynamic Rendering of Searched Movies:
+          </h4>
+          <p className="leading-7">
+            The application dynamically renders searched movies to the DOM,
+            providing users with an immediate display of their queried movie
+            results.
+          </p>
+        </li>
+        <li>
+          <h4 className="project03-accent my-4 text-xl font-semibold underline underline-offset-2">
+            Watchlist Functionality with localStorage:
+          </h4>
+          <p className="leading-7">
+            Users can effortlessly store desired movies to their watchlist using
+            localStorage. This feature enables easy management and personalized
+            curation of movies the user intends to track.
+          </p>
+        </li>
+        <li>
+          <h4 className="project03-accent my-4 text-xl font-semibold underline underline-offset-2">
+            Retrieval and Rendering of Stored Movies:
+          </h4>
+          <p className="leading-7">
+            Leveraging localStorage, the application fetches stored movies and
+            renders them directly to the DOM. This functionality ensures users
+            have access to their saved movie selections upon revisiting the
+            platform.
+          </p>
+        </li>
+        <li>
+          <h4 className="project03-accent my-4 text-xl font-semibold underline underline-offset-2">
+            Seamless Movie Removal from Watchlist:
+          </h4>
+          <p className="leading-7">
+            Empowering user control, the application grants the ability to
+            effortlessly remove movies from the watchlist. This feature
+            streamlines the management of stored movies based on user
+            preferences.
+          </p>
+        </li>
+      </ul>
+    ),
+    approach: (
+      <>
+        <p className="leading-8">
+          The MovieVault project emerged from the need for a centralized
+          platform to track my ongoing TV show interests. Dissatisfied with the
+          reliability of website bookmarking features, I embarked on creating a
+          personalized application.
+        </p>
+        <p className="my-4 leading-8">
+          My primary aim throughout the development phase was to bolster my
+          proficiency in API methodologies, particularly GET and POST. Employing
+          class-based components, I sought to enhance the project's structural
+          coherence.
+        </p>
+      </>
+    ),
+    learned: (
+      <>
+        <h4 className="my-4 text-xl font-semibold">
+          Challenges and Solutions:
+        </h4>
+        <ul className="my-2 list-disc pl-8">
+          <li>
+            <p className="leading-7">
+              <span className="project03-accent">
+                Implementing the "remove from watchlist" feature posed a notable
+                challenge.
+              </span>{" "}
+              I addressed this by establishing associations between buttons and
+              corresponding cards using data attributes.
+            </p>
+          </li>
+          <li>
+            <p className="leading-7">
+              <span className="project03-accent">
+                Simultaneously removing a card from both the DOM and local
+                storage presented another hurdle.
+              </span>{" "}
+              I circumvented inefficient solutions by leveraging the built-in
+              remove() method, facilitating the removal of cards from their
+              parent elements without full page re-rendering or data refetching.
+            </p>
+          </li>
+          <li>
+            <p className="leading-7">
+              <span className="project03-accent">
+                Troubleshooting the search page revealed an issue with multiple
+                event listeners accumulating during multiple title searches.
+              </span>{" "}
+              To resolve this, I ensured the removal of existing event listeners
+              before introducing new ones, guaranteeing a single event listener
+              per card at any given time.
+            </p>
+          </li>
+          <li>
+            <p className="leading-7">
+              <span className="project03-accent">
+                Overcoming CSS hover effect inconsistencies demanded a strategic
+                approach.
+              </span>{" "}
+              Utilizing grid layout to stack elements, I employed align-self:
+              end to position content at the bottom, while @media (hover) and
+              translate functions facilitated non-sticky hover effects.
+              Augmenting user experience, I integrated opacity delay animations.
+            </p>
+          </li>
+        </ul>
+      </>
+    ),
+    optimization: (
+      <ul className="my-2 list-disc pl-8">
+        <li>
+          <p className="leading-7">
+            <span className="project03-accent">Enhanced Interaction:</span>{" "}
+            Implement interactive functionality for the Add/Remove watchlist
+            buttons, allowing seamless toggling of titles within the watchlist.
+          </p>
+        </li>
+        <li>
+          <p className="leading-7">
+            <span className="project03-accent">Mobile Compatibility:</span>{" "}
+            Refactor hover-based functionalities to ensure smooth user
+            interaction on mobile devices without interference.
+          </p>
+        </li>
+        <li>
+          <p className="leading-7">
+            <span className="project03-accent">Database Integration:</span>{" "}
+            Transition from localStorage to a robust database system, enabling
+            the utilization of complete REST methods and establishing a clear
+            separation between client and server functionalities. This upgrade
+            will enhance scalability and enable comprehensive RESTful
+            implementation.
+          </p>
+        </li>
+      </ul>
+    ),
+  },
 };
 
 export const getProjectData = (projectId) => {
