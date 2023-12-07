@@ -98,7 +98,7 @@ function ProjectItem() {
             <NavLink to="/" onClick={() => scrollToSection("navbar")}>
               OTHER PROJECTS
             </NavLink>
-            <NavLink to="#" onClick={() => scrollToSection("title")}>
+            <NavLink to="#" onClick={() => scrollToSection("navbar")}>
               TOP OF PAGE
             </NavLink>
           </div>

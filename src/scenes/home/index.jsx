@@ -11,8 +11,8 @@ function Home() {
         <div>
           <h1 className="text-[2rem] leading-[3.125rem]">
             Hello! I am a <span>Software Engineer</span> who enjoys crafting
-            experiences that empower users. I am now designing at{" "}
-            <span>100devs</span> team.
+            experiences that empower users. I am now developing at{" "}
+            <span>100devs</span>.
           </h1>
         </div>
         <div>

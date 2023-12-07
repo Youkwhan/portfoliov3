@@ -75,7 +75,7 @@ const projectsData = {
       </p>
     ),
     learned: (
-      <ul className="my-2 list-disc pl-8">
+      <ul className="my-2 list-disc pl-4">
         <li>
           <p className="leading-7">
             <span className="project01-accent">
@@ -134,7 +134,7 @@ const projectsData = {
     optimization: (
       <>
         <p>Some optimization techniques we used to enhance performance:</p>
-        <ul className="my-2 list-disc pl-8">
+        <ul className="my-2 list-disc pl-4">
           <li>
             <p className="leading-7">
               <span className="project01-accent">Parallel data fetching:</span>{" "}
@@ -217,7 +217,7 @@ const projectsData = {
             {" "}
             Initial Setup and Styling:
           </h4>
-          <ul className="my-2 list-disc pl-8">
+          <ul className="my-2 list-disc pl-4">
             <li>
               <p className="leading-7">
                 Established the application structure by creating key components
@@ -237,7 +237,7 @@ const projectsData = {
           <h4 className="my-4 text-xl font-semibold">
             App.js and Game Flow Management:
           </h4>
-          <ul className="my-2 list-disc pl-8">
+          <ul className="my-2 list-disc pl-4">
             <li>
               <p className="leading-7">
                 Orchestrated game flow within App.js, dynamically rendering
@@ -261,7 +261,7 @@ const projectsData = {
 
         <li>
           <h4 className="my-4 text-xl font-semibold">QuizMenu.jsx:</h4>
-          <ul className="my-2 list-disc pl-8">
+          <ul className="my-2 list-disc pl-4">
             <li>
               <p className="leading-7">
                 Managed user interactions for trivia preferences and data
@@ -279,7 +279,7 @@ const projectsData = {
 
         <li>
           <h4 className="my-4 text-xl font-semibold">Quiz.jsx:</h4>
-          <ul className="my-2 list-disc pl-8">
+          <ul className="my-2 list-disc pl-4">
             <li>
               <p className="leading-7">
                 Rendered trivia questions fetched from the API.
@@ -302,7 +302,7 @@ const projectsData = {
       </ol>
     ),
     learned: (
-      <ul className="my-2 list-disc pl-8">
+      <ul className="my-2 list-disc pl-4">
         <li>
           <p className=" mb-2 leading-7">
             <span className="project02-accent">Importance of Planning:</span> I
@@ -338,7 +338,7 @@ const projectsData = {
       </ul>
     ),
     optimization: (
-      <ul className="my-2 list-disc pl-8">
+      <ul className="my-2 list-disc pl-4">
         <li>
           <p className="leading-7">
             User input to control number of questions.
@@ -450,7 +450,7 @@ const projectsData = {
         <h4 className="my-4 text-xl font-semibold">
           Challenges and Solutions:
         </h4>
-        <ul className="my-2 list-disc pl-8">
+        <ul className="my-2 list-disc pl-4">
           <li>
             <p className="leading-7">
               <span className="project03-accent">
@@ -499,7 +499,7 @@ const projectsData = {
       </>
     ),
     optimization: (
-      <ul className="my-2 list-disc pl-8">
+      <ul className="my-2 list-disc pl-4">
         <li>
           <p className="leading-7">
             <span className="project03-accent">Enhanced Interaction:</span>{" "}

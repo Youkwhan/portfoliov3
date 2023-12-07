@@ -18,10 +18,10 @@ function About() {
               mathematics, statistics, economics and digital design.
             </p>
             <p className="mt-2 text-base">
-              I enjoy creating intuitive user experiences using domain
-              knowledge, such as <span>interactive design</span>, and my deep
-              understanding of economic behavior for impactful data
-              visualization.{" "}
+              I enjoy creating intuitive user experiences by leveraging domain
+              knowledge, such as <span>interactive design</span>, and applying
+              my deep understanding of economic behavior to create impactful
+              data visualizations.{" "}
               <span>
                 I am currently developing at 100Devs, a training program tied to
                 a digital agency, building websites and apps for clients.
@@ -31,7 +31,7 @@ function About() {
               My specialization encompasses a range of skills vital to{" "}
               <span>modern web development:</span>
             </p>
-            <ul className="my-2 list-disc pl-8">
+            <ul className="my-2 list-disc pl-4">
               <li>
                 <p className="text-base">Responsive Design</p>
               </li>
@@ -47,8 +47,8 @@ function About() {
             </ul>
             <p className="mb-6 text-base">
               I prioritize ensuring seamless experiences across various screens
-              and have an interest in exploring the potential
-              applications of AI beyond screen-based interactions.
+              and have an interest in exploring the potential applications of AI
+              beyond screen-based interactions.
             </p>
 
             <p className="mb-4 text-base">
