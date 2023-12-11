@@ -1,6 +1,5 @@
 import profile from "../../assets/pfp1.jpg";
 import Techstack from "./Techstack";
-import { getProjectData } from "../../shared/dataUtils";
 
 function About() {
   return (
