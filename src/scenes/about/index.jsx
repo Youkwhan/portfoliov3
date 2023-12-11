@@ -1,5 +1,6 @@
-import profile from "../../assets/IMG_1242.jpg";
+import profile from "../../assets/pfp1.jpg";
 import Techstack from "./Techstack";
+import { getProjectData } from "../../shared/dataUtils";
 
 function About() {
   return (
@@ -7,7 +8,7 @@ function About() {
       <div className="mx-auto flex max-w-[950px] py-28 ">
         <section className="flex flex-col items-start justify-between gap-14 md:flex-row">
           {/* LEFT */}
-          <div className="md:max-w-[50%]">
+          <div className="max-w-[400px] md:max-w-[50%]">
             <img src={profile} />
           </div>
           {/* RIGHT */}
