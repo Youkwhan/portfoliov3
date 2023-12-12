@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <nav id="navbar">
-      <div className="sticky top-0 z-30 w-full py-6 ">
+      <div className="sticky top-0 z-30 w-full py-6 px-4">
         <div className="mx-auto flex max-w-[1440px] items-center justify-between gap-16 font-opensans">
           <NavLink
             className="text-2xl text-primary-200"

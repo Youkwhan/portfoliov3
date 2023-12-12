@@ -11,9 +11,9 @@ function ProjectItem() {
   const projectData = getProjectData(parsedProjectId);
 
   return (
-    <section className="bg-white pb-24">
+    <section className="bg-white px-4 pb-24 md:px-0">
       <section id="title" className="mx-auto max-w-[950px] py-20">
-        <h1 className="mb-14 font-opensans text-7xl font-semibold tracking-normal text-primary-200">
+        <h1 className="mb-14 font-opensans text-5xl font-semibold tracking-normal text-primary-200 md:text-7xl">
           {projectData.title}
         </h1>
         <p className="mb-7 font-medium text-primary-200">
@@ -31,13 +31,13 @@ function ProjectItem() {
           </div>
           <div>
             <h3 className="text-2xl text-primary-200">Live</h3>
-            <div className="flex gap-2 items-center">
+            <div className="flex items-center gap-2">
               <a
                 href={projectData.live[0]}
                 target="_blank"
                 className={`link project0${parsedProjectId}-accent`}
               >
-                View Site &rarr;
+                View Site
               </a>
               <a href={projectData.live[1]} target="_blank">
                 <img src={github} alt="github-link" className="w-7" />
@@ -58,7 +58,7 @@ function ProjectItem() {
         id="background"
         className="full-bleed mx-auto max-w-[950px] bg-bg-gray py-20"
       >
-        <h2 className="mb-14 font-opensans text-7xl font-semibold tracking-tight text-primary-200">
+        <h2 className="mb-14 font-opensans text-5xl font-semibold tracking-tight text-primary-200 md:text-7xl">
           01
           <br />
           BACKGROUND
@@ -66,7 +66,7 @@ function ProjectItem() {
         <p className="leading-8">{projectData.overview}</p>
       </section>
       <section id="outcome" className="mx-auto max-w-[950px] py-20">
-        <h2 className="mb-14 font-opensans text-7xl font-semibold tracking-tight text-primary-200">
+        <h2 className="mb-14 font-opensans text-5xl font-semibold tracking-tight text-primary-200 md:text-7xl">
           02
           <br />
           OUTCOME
@@ -78,10 +78,10 @@ function ProjectItem() {
       </section>
       <section
         id="reflection"
-        className="half-bleed mx-auto max-w-[1200px] bg-bg-gray py-20"
+        className="half-bleed mx-auto max-w-[1200px] bg-bg-gray py-20 px-2"
       >
         <div className="mx-auto max-w-[950px]">
-          <h2 className="mb-14 font-opensans text-7xl font-semibold tracking-tight text-primary-200">
+          <h2 className="mb-14 font-opensans text-5xl md:text-7xl font-semibold tracking-tight text-primary-200">
             03
             <br />
             REFLECTION

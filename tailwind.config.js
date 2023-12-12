@@ -7,7 +7,7 @@ export default {
         "bg-gray": "#E8E8E8",
         "primary-100": "#676767",
         "primary-200": "#333333",
-        "secondary-100": "#416BD8",
+        "secondary-100": "#b45f06",
         "primary-300": "#C4C4C4",
         "primary-400": "#343434",
       },

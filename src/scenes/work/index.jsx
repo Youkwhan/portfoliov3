@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function Work() {
   return (
     <section id="works">
-      <div className="mx-auto max-w-[950px]">
+      <div className="mx-auto max-w-[950px] px-1">
         <div>
           <NavLink
             to="/projects/1"

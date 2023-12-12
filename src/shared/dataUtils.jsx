@@ -17,7 +17,7 @@ const projectsData = {
     features: (
       <ul>
         <li>
-          <h4 className="project01-accent my-4 text-xl font-semibold underline underline-offset-2">
+          <h4 className="project01-accent my-4 text-xl font-semibold ">
             Search Filter:
           </h4>
           <p className="leading-7">
@@ -28,7 +28,7 @@ const projectsData = {
           </p>
         </li>
         <li>
-          <h4 className="project01-accent my-4 text-xl font-semibold underline underline-offset-2">
+          <h4 className="project01-accent my-4 text-xl font-semibold ">
             Saved previous route:
           </h4>
           <p className="leading-7">
@@ -38,7 +38,7 @@ const projectsData = {
           </p>
         </li>
         <li>
-          <h4 className="project01-accent my-4 text-xl font-semibold underline underline-offset-2">
+          <h4 className="project01-accent my-4 text-xl font-semibold ">
             Login:
           </h4>
           <p className="leading-7">
@@ -182,7 +182,7 @@ const projectsData = {
     features: (
       <ul>
         <li>
-          <h4 className="project02-accent my-4 text-xl font-semibold underline underline-offset-2">
+          <h4 className="project02-accent my-4 text-xl font-semibold ">
             Vast Question Bank:
           </h4>
           <p className="leading-7">
@@ -191,7 +191,7 @@ const projectsData = {
           </p>
         </li>
         <li>
-          <h4 className="project02-accent my-4 text-xl font-semibold underline underline-offset-2">
+          <h4 className="project02-accent my-4 text-xl font-semibold ">
             Randomized Questions:
           </h4>
           <p className="leading-7">
@@ -200,7 +200,7 @@ const projectsData = {
           </p>
         </li>
         <li>
-          <h4 className="project02-accent my-4 text-xl font-semibold underline underline-offset-2">
+          <h4 className="project02-accent my-4 text-xl font-semibold ">
             Answer Validation:
           </h4>
           <p className="leading-7">
@@ -375,7 +375,7 @@ const projectsData = {
     features: (
       <ul>
         <li>
-          <h4 className="project03-accent my-4 text-xl font-semibold underline underline-offset-2">
+          <h4 className="project03-accent my-4 text-xl font-semibold ">
             API Integration for Movie Data:
           </h4>
           <p className="leading-7">
@@ -386,7 +386,7 @@ const projectsData = {
           </p>
         </li>
         <li>
-          <h4 className="project03-accent my-4 text-xl font-semibold underline underline-offset-2">
+          <h4 className="project03-accent my-4 text-xl font-semibold ">
             Dynamic Rendering of Searched Movies:
           </h4>
           <p className="leading-7">
@@ -396,7 +396,7 @@ const projectsData = {
           </p>
         </li>
         <li>
-          <h4 className="project03-accent my-4 text-xl font-semibold underline underline-offset-2">
+          <h4 className="project03-accent my-4 text-xl font-semibold ">
             Watchlist Functionality with localStorage:
           </h4>
           <p className="leading-7">
@@ -406,7 +406,7 @@ const projectsData = {
           </p>
         </li>
         <li>
-          <h4 className="project03-accent my-4 text-xl font-semibold underline underline-offset-2">
+          <h4 className="project03-accent my-4 text-xl font-semibold ">
             Retrieval and Rendering of Stored Movies:
           </h4>
           <p className="leading-7">
@@ -417,7 +417,7 @@ const projectsData = {
           </p>
         </li>
         <li>
-          <h4 className="project03-accent my-4 text-xl font-semibold underline underline-offset-2">
+          <h4 className="project03-accent my-4 text-xl font-semibold ">
             Seamless Movie Removal from Watchlist:
           </h4>
           <p className="leading-7">

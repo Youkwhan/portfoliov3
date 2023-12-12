@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 function Footer() {
   return (
     <section id="footer">
-      <div className="mx-auto  max-w-[950px]  border-t-4 border-primary-300 py-14 relative">
+      <div className="mx-auto  max-w-[950px]  border-t-4 border-primary-300 py-14 relative px-4 md:px-0">
         <div className="flex items-center justify-between">
           <NavLink
             className="text-2xl text-primary-200 "

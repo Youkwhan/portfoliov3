@@ -4,7 +4,7 @@ import Techstack from "./Techstack";
 function About() {
   return (
     <section id="about" className="bg-white">
-      <div className="mx-auto flex max-w-[950px] py-28 ">
+      <div className="mx-auto flex max-w-[950px] px-4 py-28 md:px-0">
         <section className="flex flex-col items-start justify-between gap-14 md:flex-row">
           {/* LEFT */}
           <div className="max-w-[400px] md:max-w-[50%]">

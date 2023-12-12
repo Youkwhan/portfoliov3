@@ -7,7 +7,7 @@ import resume from "../../assets/youkwhan_kim_resume.pdf";
 function Home() {
   return (
     <section id="home">
-      <div className="mx-auto flex max-w-[950px] flex-col items-start justify-center gap-10 py-28">
+      <div className="mx-auto flex max-w-[950px] flex-col items-start justify-center gap-10 py-28 px-4 md:px-0">
         <div>
           <h1 className="text-[2rem] leading-[3.125rem]">
             Hello! I am a <span>Software Engineer</span> who enjoys crafting
