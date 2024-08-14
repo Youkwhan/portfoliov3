@@ -12,7 +12,7 @@ function Home() {
           <h1 className="text-[2rem] leading-[3.125rem]">
             Hello! I am a <span>Software Engineer</span> who enjoys crafting
             experiences that empower users. I am now developing at{" "}
-            <span>Dev10</span>.
+            <span>Prime Therapeutics</span>.
           </h1>
         </div>
         <div>
