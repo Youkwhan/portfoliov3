@@ -34,9 +34,9 @@ function Techstack() {
           <li><img src={IconTypeScript} alt="TypeScript icon" className="inline-block w-6 my-1 mr-1" />TypeScript</li>
           <li><img src={IconJavaScript} alt="JavaScript icon" className="inline-block w-6 my-1 mr-1" />JavaScript</li>
           <li><img src={IconBootstrap} alt="Bootstrap icon" className="inline-block w-6 my-1 mr-1" />Bootstrap</li>
-          <li><img src={IconHtml} alt="HTML icon" className="inline-block w-6 my-1 mr-1" />HTML5</li>
-          <li><img src={IconCSS} alt="CSS icon" className="inline-block w-6 my-1 mr-1" />CSS3</li>
           <li><img src={IconTailwindCSS} alt="Tailwind CSS icon" className="inline-block w-6 my-1 mr-1" />Tailwind CSS</li>
+          <li><img src={IconCSS} alt="CSS icon" className="inline-block w-6 my-1 mr-1" />CSS3</li>
+          <li><img src={IconHtml} alt="HTML icon" className="inline-block w-6 my-1 mr-1" />HTML5</li>
           <li><img src={IconFigma} alt="Figma icon" className="inline-block w-6 my-1 mr-1"/>Figma</li>
         </ul>
       </div>
@@ -44,15 +44,15 @@ function Techstack() {
       {/* Column 2: Backend & Databases */}
       <div>
         <h3 className="p-3 mb-3 text-xl text-white rounded-lg bg-secondary-100">
-          Backend & Databases
+          Backend
         </h3>
         <ul className="pl-3 icon-list">
           <li><img src={IconJava} alt="Java icon" className="inline-block w-6 my-1 mr-1" />Java</li>
           <li><img src={IconSpringBoot} alt="Spring Boot icon" className="inline-block w-6 my-1 mr-1" />Spring Boot</li>
-          <li><img src={IconOracle} alt="Oracle icon" className="inline-block w-6 my-1 mr-1" />Oracle</li>
-          <li><img src={IconMySQL} alt="MySQL icon" className="inline-block w-6 my-1 mr-1" />MySQL</li>
           <li><img src={IconPython} alt="Python icon" className="inline-block w-6 my-1 mr-1" />Python</li>
           <li><img src={IconPerl} alt="Perl icon" className="inline-block w-6 my-1 mr-1" />Perl</li>
+          <li><img src={IconOracle} alt="Oracle icon" className="inline-block w-6 my-1 mr-1" />Oracle</li>
+          <li><img src={IconMySQL} alt="MySQL icon" className="inline-block w-6 my-1 mr-1" />MySQL</li>
           <li><img src={IconFirebase} alt="Firebase icon" className="inline-block w-6 my-1 mr-1"/>Firebase</li>
         </ul>
       </div>
@@ -60,12 +60,12 @@ function Techstack() {
       {/* Column 3: Tools, Cloud & Testing */}
       <div>
         <h3 className="p-3 mb-3 text-xl text-white rounded-lg bg-secondary-100">
-          Tools, Cloud & Testing
+          Tools
         </h3>
         <ul className="pl-3 icon-list">
-          <li><img src={IconAWS} alt="AWS icon" className="inline-block w-6 my-1 mr-1" />AWS</li>
           <li><img src={IconGit} alt="Git icon" className="inline-block w-6 my-1 mr-1" />Git</li>
           <li><img src={IconGithub} alt="GitHub icon" className="inline-block w-6 my-1 mr-1" />GitHub</li>
+          <li><img src={IconAWS} alt="AWS icon" className="inline-block w-6 my-1 mr-1" />AWS</li>
           <li><img src={IconJUnit} alt="JUnit icon" className="inline-block w-6 my-1 mr-1" />JUnit</li>
         </ul>
       </div>
