@@ -28,11 +28,11 @@ function About() {
                 need, building websites and apps for clients.
               </span>
             </p>
-            <p className=" mt-6 text-base ">
+            <p className="mt-6 text-base ">
               My specialization encompasses a range of skills vital to{" "}
               <span>software engineering:</span>
             </p>
-            <ul className="my-2 list-disc pl-4">
+            <ul className="pl-4 my-2 list-disc">
               <li>
                 <p className="text-base">API Design & Intergration</p>
               </li>
@@ -47,9 +47,10 @@ function About() {
               </li>
             </ul>
             <p className="mb-6 text-base">
-              I prioritize ensuring seamless user experiences and have an interest
-              in exploring the potential of 3D web experiences with libraries like 
-              Three.js beyond traditional screen-based interactions.
+              I prioritize ensuring seamless user experiences and have an
+              interest in exploring the potential of 3D web experiences with
+              libraries like <span>Three.js</span> beyond traditional screen-based
+              interactions.
             </p>
 
             <p className="mb-4 text-base">
@@ -62,8 +63,8 @@ function About() {
 
       <section className="full-bleed mx-auto max-w-[950px] bg-bg-gray py-28">
         {/* Skill */}
-        <article className="rounded-lg p-5 ">
-          <h2 className="mb-5 text-center text-2xl font-bold  tracking-widest">
+        <article className="p-5 rounded-lg ">
+          <h2 className="mb-5 text-2xl font-bold tracking-widest text-center">
             Tech Stack
           </h2>
           <Techstack />
