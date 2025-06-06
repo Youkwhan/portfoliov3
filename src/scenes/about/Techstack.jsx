@@ -17,8 +17,8 @@ import IconOracle from "../../assets/icons8/icons8-oracle.svg";
 import IconMySQL from "../../assets/icons8/icons8-mysql.svg";
 import IconAWS from "../../assets/icons8/icons8-aws.svg";
 import IconJUnit from "../../assets/icons8/JUnit.svg";
-import IconPerl from "../../assets.icons8/Perl.svg";
-import IconBootstrap from "../../assets.icons8/Bootstrap.svg"
+import IconPerl from "../../assets/icons8/Perl.svg"
+import IconBootstrap from "../../assets/icons8/Bootstrap.svg"
 
 function Techstack() {
   return (
