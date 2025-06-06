@@ -14,7 +14,7 @@ function About() {
           <article className="flex flex-col md:max-w-[50%]">
             <p className="text-base">
               My name is <span>You-Kwhan Kim</span>. I am an interdisciplinary
-              <span> Web Developer</span> with a background in applied
+              <span> Full Stack Developer</span> with a background in applied
               mathematics, statistics, economics and digital design.
             </p>
             <p className="mt-2 text-base">
@@ -23,37 +23,38 @@ function About() {
               my deep understanding of economic behavior to create impactful
               data visualizations.{" "}
               <span>
-                I am currently developing at 100Devs, a training program tied to
-                a digital agency, building websites and apps for clients.
+                I am currently developing at Prime Therapeutics, a PBM company
+                that strives to ensure people receive the right medications they
+                need, building websites and apps for clients.
               </span>
             </p>
             <p className=" mt-6 text-base ">
               My specialization encompasses a range of skills vital to{" "}
-              <span>modern web development:</span>
+              <span>software engineering:</span>
             </p>
             <ul className="my-2 list-disc pl-4">
               <li>
-                <p className="text-base">Responsive Design</p>
+                <p className="text-base">API Design & Intergration</p>
               </li>
               <li>
-                <p className="text-base">Efficient Layout</p>
+                <p className="text-base">Full-Stack Application Architecture</p>
               </li>
               <li>
-                <p className="text-base">Content Management System</p>
+                <p className="text-base">Relational Database Management</p>
               </li>
               <li>
-                <p className="text-base">Search Engine Optimization</p>
+                <p className="text-base">Cloud Application Deployment</p>
               </li>
             </ul>
             <p className="mb-6 text-base">
-              I prioritize ensuring seamless experiences across various screens
-              and have an interest in exploring the potential applications of AI
-              beyond screen-based interactions.
+              I prioritize ensuring seamless user experiences and have an interest
+              in exploring the potential of 3D web experiences with libraries like 
+              Three.js beyond traditional screen-based interactions.
             </p>
 
             <p className="mb-4 text-base">
-              When I'm not coding, I enjoy hanging out, reading, Photoshop
-              editing, gaming, building model kits, and watching anime.
+              When I'm not coding, I enjoy hanging out, reading, gaming,
+              building model kits, and watching anime.
             </p>
           </article>
         </section>

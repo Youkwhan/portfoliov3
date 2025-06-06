@@ -21,7 +21,7 @@ function Home() {
             at <span>Stony Brook University</span>
           </p>
           <p>
-            Previously at <span>Headstarter</span>
+            Previously at <span>Dev10</span>
           </p>
         </div>
         <div className="flex items-center justify-start gap-6 text-primary-400 drop-shadow-lg">
