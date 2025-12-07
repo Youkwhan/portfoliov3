@@ -13,8 +13,8 @@ function About() {
           {/* RIGHT */}
           <article className="flex flex-col md:max-w-[50%]">
             <p className="text-base">
-              My name is <span>You-Kwhan Kim</span>. I am an interdisciplinary
-              <span> Full Stack Developer</span> with a background in applied
+              Hey, my name is <span>You-Kwhan Kim</span>. I am an passionate
+              <span> Full Stack Developer</span> based in New York with a background in applied
               mathematics, statistics, economics and digital design.
             </p>
             <p className="mt-2 text-base">
@@ -29,8 +29,7 @@ function About() {
               </span>
             </p>
             <p className="mt-6 text-base ">
-              My specialization encompasses a range of skills vital to{" "}
-              <span>software engineering:</span>
+              My specialization encompasses:
             </p>
             <ul className="pl-4 my-2 list-disc">
               <li>
