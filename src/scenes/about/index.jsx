@@ -1,4 +1,4 @@
-import profile from "../../assets/pfp1.jpg";
+import profile from "../../assets/pfp.jpg";
 import Techstack from "./Techstack";
 
 function About() {
