@@ -2,7 +2,7 @@ import {
   EnvelopeOpenIcon,
   DocumentTextIcon,
 } from "@heroicons/react/24/outline";
-import resume from "../../assets/youkwhan_kim_resume.pdf";
+import resume from "../../assets/youk_kim_resume_2025.pdf";
 
 function Home() {
   return (
